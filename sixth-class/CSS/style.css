@@ -1,0 +1,22 @@
+h1, h2{
+    color: #202098d6;
+}
+
+a{
+    font-size: 30px; text-decoration: none; font-weight: bold;
+}
+
+/* changes all span */
+span{ 
+    font-style: italic; font-weight:bold; color: orange;
+}
+
+/* changes span in p tag */
+p span{
+    color: #65cb0c; font-style: italic; font-weight: bold;
+}
+
+/* changes span of new-course */
+.new-course span {
+    color: #ef3050;
+}
