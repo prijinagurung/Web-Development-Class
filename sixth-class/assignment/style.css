@@ -1,3 +1,4 @@
 p a{color: #3494e2;}
-p{font-size: 18px; font-family: Avenir;}
-footer{font-size: 25px; font-family: Avenir;}
+p{font-size: 20px; /* font-family: Avenir;*/ }
+footer{font-size: 30px; /* font-family: Avenir; */}
+html, body {font-family: "Avenir", "Noto Sans", system-ui /* fallback font */}
