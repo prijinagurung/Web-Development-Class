@@ -1,3 +1,17 @@
-p a{color: #3494e2;}
-p{font-size: 18px; font-family: Avenir;}
-footer{font-size: 25px; font-family: Avenir;}
+p a{
+    color: #3494e2;
+}
+
+p{
+    font-size: 20px; /* font-family: Avenir;*/
+}
+
+html, body {
+    font-family: "Avenir", "Noto Sans", system-ui /* fallback font */
+}
+
+.footer span{
+    font-size: 30px; font-family: "Avenir"; border:2px solid red; padding: 10px 5px 30px 10px;
+    margin-top: 20 px; display: inline-block;
+}
+
