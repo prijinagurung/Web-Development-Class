@@ -1,0 +1,30 @@
+.box{
+    width: 500px;
+    height: 400px;
+    padding: 0 100px;
+    /* background: red; (this follows the specs) */
+    background-image: url("../images/meadow.jpg");
+    background-repeat:no-repeat; /*can also be repeat, and left-repeat, right-repeat etc) */
+    background-size: contain;
+}
+
+/* this resets the box to be more controllable as initially, the sizing inlcudes margin, padding
+eg: if the box-width is set to 50%, the overall measurement would be 50+margin and padding px, CALLED RESETTING */
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+img{
+    height: 400 px;
+    width: 400 px;
+    object-fit:cover; /*or contain*/
+    object-position: right;
+}
+
+/* this padding is needed to ensure there is enough space for the numbering to be shown */
+ul, ol{
+    padding-left: 20px;
+}
+
