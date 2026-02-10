@@ -1,0 +1,36 @@
+.box {
+    background-color: pink;
+    height: 700px;
+    width: 700px;
+    border-radius:10px;
+}
+
+div img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+@media (max-width:300px) {
+    .box {
+          background-color: light purple;
+    }
+}
+
+@media (max-width:500px) {
+    .box {
+          background-color: skyblue;
+    }
+}
+
+@media (max-width:700px) {
+    .box {
+          background-color: pink;
+    }
+}
