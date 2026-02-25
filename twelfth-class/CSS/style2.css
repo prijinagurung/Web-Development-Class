@@ -1,0 +1,52 @@
+.wrapper2 {
+    background-color:thistle;
+    height:200vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color:chartreuse;
+}
+
+.box-2 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color:crimson;
+}
+
+.box-3 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color:deeppink;
+}
+
+.box-4 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color:fuchsia;
+}
+
+.box-5 {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:salmon;
+}

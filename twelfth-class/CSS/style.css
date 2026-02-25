@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 500vh;
+}
+
+.wrapper {
+    background-color:aquamarine;
+    height:200vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent1 {
+    width:100px;
+    height:50vh;
+}
+
+.parent2 {
+    height: 100vh;
+    width: 100px;
+}
+
+.parent3 {
+    width: 100px;
+}
+
+.box-1 {
+    height:100px;
+    width:100px;
+    background: orchid;
+    position: sticky;
+    top: 0; /* for certain distance between top and the element, set px*/
+}
+
+.box-2 {
+    height:100px;
+    width:100px;
+    background: orange;
+    position: sticky;
+    top: 0;
+}
+
+.box-3 {
+    height:100px;
+    width:100px;
+    background: pink;
+    position: sticky;
+    top: 0;
+}
