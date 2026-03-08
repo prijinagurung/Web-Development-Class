@@ -1,0 +1,42 @@
+.wrapper {
+    background-color: skyblue;
+    height: 600px;
+    width: 800px;
+    position: relative;
+    display: flex;
+    justify-content: content;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+} 
+
+.box {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+}
+
+video{
+   height: 100%;
+   width: 100%;
+   object-fit:cover;
+}
+
+.svg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* the specs requried for video should be set in the common parent for video and svg */
+.common-parent { 
+    position:relative;
+    height: 600px;
+    width: 600px;
+}
