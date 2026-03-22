@@ -5,6 +5,12 @@
     border-radius:10px;
 }
 
+.wrapper {
+    border-width:80px;
+    border-color:blue;
+    height:900px;
+}
+
 div img {
     height: 300px;
     width: 300px;
